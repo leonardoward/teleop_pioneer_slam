@@ -1,0 +1,125 @@
+[[36mpolled_camera[0m] [1m[34m==>[0m '[1m/home/l/teleop_pioneer_slam/build/polled_camera/build_env.sh /usr/bin/cmake /home/l/teleop_pioneer_slam/src/image_common/polled_camera -DCATKIN_DEVEL_PREFIX=/home/l/teleop_pioneer_slam/devel -DCMAKE_INSTALL_PREFIX=/home/l/teleop_pioneer_slam/install[0m' [30m[1min[0m '[1m/home/l/teleop_pioneer_slam/build/polled_camera[0m'[0m
+[36m-- [0mThe C compiler identification is GNU 5.4.0
+[0m[36m-- [0mThe CXX compiler identification is GNU 5.4.0
+[0m[36m-- [0mCheck for working C compiler:[33m /usr/bin/cc
+[0m[0m[36m-- [0mCheck for working C compiler:[33m /usr/bin/cc -- works
+[0m[0m[36m-- [0mDetecting C compiler ABI info
+[0m[36m-- [0mDetecting C compiler ABI info - done
+[0m[36m-- [0mDetecting C compile features
+[0m[36m-- [0mDetecting C compile features - done
+[0m[36m-- [0mCheck for working CXX compiler:[33m /usr/bin/c++
+[0m[0m[36m-- [0mCheck for working CXX compiler:[33m /usr/bin/c++ -- works
+[0m[0m[36m-- [0mDetecting CXX compiler ABI info
+[0m[36m-- [0mDetecting CXX compiler ABI info - done
+[0m[36m-- [0mDetecting CXX compile features
+[0m[36m-- [0mDetecting CXX compile features - done
+[0m[36m-- [0mUsing CATKIN_DEVEL_PREFIX:[33m /home/l/teleop_pioneer_slam/devel
+[0m[0m[36m-- [0mUsing CMAKE_PREFIX_PATH:[33m /home/l/teleop_pioneer_slam/devel;/opt/ros/kinetic
+[0m[0m[36m-- [0mThis workspace overlays:[33m /home/l/teleop_pioneer_slam/devel;/opt/ros/kinetic
+[0m[0m[36m-- [0mFound PythonInterp:[33m /usr/bin/python (found version "2.7.12") 
+[0m[0m[36m-- [0mUsing PYTHON_EXECUTABLE:[33m /usr/bin/python
+[0m[0m[36m-- [0mUsing Debian Python package layout
+[0m[36m-- [0mUsing empy:[33m /usr/bin/empy
+[0m[0m[36m-- [0mUsing CATKIN_ENABLE_TESTING:[33m ON
+[0m[0m[36m-- [0mCall enable_testing()
+[0m[36m-- [0mUsing CATKIN_TEST_RESULTS_DIR:[33m /home/l/teleop_pioneer_slam/build/polled_camera/test_results
+[0m[0m[36m-- [0mFound gmock sources under '/usr/src/gmock':[33m gmock will be built
+[0m[0m[36m-- [0mLooking for pthread.h
+[0m[36m-- [0mLooking for pthread.h - found
+[0m[36m-- [0mLooking for pthread_create
+[0m[36m-- [0mLooking for pthread_create - not found
+[0m[36m-- [0mLooking for pthread_create in pthreads
+[0m[36m-- [0mLooking for pthread_create in pthreads - not found
+[0m[36m-- [0mLooking for pthread_create in pthread
+[0m[36m-- [0mLooking for pthread_create in pthread - found
+[0m[36m-- [0mFound Threads:[33m TRUE  
+[0m[0m[36m-- [0mFound gtest sources under '/usr/src/gmock':[33m gtests will be built
+[0m[0m[36m-- [0mUsing Python nosetests:[33m /usr/bin/nosetests-2.7
+[0m[0m[36m-- [0mcatkin 0.7.14
+[0m[36m-- [0mUsing these message generators:[33m gencpp;geneus;genlisp;gennodejs;genpy
+[0m[0m[36m-- [0mpolled_camera:[33m 0 messages, 1 services
+[0m[0m[36m-- [0mConfiguring done
+[0m[36m-- [0mGenerating done
+[0m[36m-- [0mBuild files have been written to:[33m /home/l/teleop_pioneer_slam/build/polled_camera
+[0m[0m[[36mpolled_camera[0m] [32m<==[0m '[1m/home/l/teleop_pioneer_slam/build/polled_camera/build_env.sh /usr/bin/cmake /home/l/teleop_pioneer_slam/src/image_common/polled_camera -DCATKIN_DEVEL_PREFIX=/home/l/teleop_pioneer_slam/devel -DCMAKE_INSTALL_PREFIX=/home/l/teleop_pioneer_slam/install[0m' finished with return code '[1m0[0m'[0m
+[[36mpolled_camera[0m] [1m[34m==>[0m '[1m/home/l/teleop_pioneer_slam/build/polled_camera/build_env.sh /usr/bin/make --jobserver-fds=3,5 -j[0m' [30m[1min[0m '[1m/home/l/teleop_pioneer_slam/build/polled_camera[0m'[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target _polled_camera_generate_messages_check_deps_GetPolledImage[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[  0%] Built target _polled_camera_generate_messages_check_deps_GetPolledImage
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[  0%] Built target roscpp_generate_messages_nodejs
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_eus
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[35m[1mScanning dependencies of target polled_camera_generate_messages_py[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[  0%] Built target roscpp_generate_messages_py
+[  9%] [34m[1mGenerating Python code from SRV polled_camera/GetPolledImage[0m
+[  9%] Built target geometry_msgs_generate_messages_py
+[  9%] Built target geometry_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target polled_camera_generate_messages_eus[0m
+[35m[1mScanning dependencies of target polled_camera_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target polled_camera_generate_messages_cpp[0m
+[ 18%] [34m[1mGenerating EusLisp code from polled_camera/GetPolledImage.srv[0m
+[ 27%] [34m[1mGenerating Lisp code from polled_camera/GetPolledImage.srv[0m
+[ 36%] [34m[1mGenerating C++ code from polled_camera/GetPolledImage.srv[0m
+[ 36%] Built target polled_camera_generate_messages_lisp
+[35m[1mScanning dependencies of target polled_camera_generate_messages_nodejs[0m
+[ 45%] [34m[1mGenerating Javascript code from polled_camera/GetPolledImage.srv[0m
+[ 54%] [34m[1mGenerating EusLisp manifest code for polled_camera[0m
+[ 54%] Built target polled_camera_generate_messages_nodejs
+[ 63%] [34m[1mGenerating Python srv __init__.py for polled_camera[0m
+[ 63%] Built target polled_camera_generate_messages_py
+[ 63%] Built target polled_camera_generate_messages_cpp
+[ 63%] Built target polled_camera_generate_messages_eus
+[35m[1mScanning dependencies of target polled_camera[0m
+[35m[1mScanning dependencies of target polled_camera_generate_messages[0m
+[ 63%] Built target polled_camera_generate_messages
+[ 72%] [32mBuilding CXX object CMakeFiles/polled_camera.dir/src/publication_server.cpp.o[0m
+[ 81%] [32m[1mLinking CXX shared library /home/l/teleop_pioneer_slam/devel/lib/libpolled_camera.so[0m
+[ 81%] Built target polled_camera
+[35m[1mScanning dependencies of target poller[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/poller.dir/src/poller.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/l/teleop_pioneer_slam/devel/lib/polled_camera/poller[0m
+[100%] Built target poller
+[[36mpolled_camera[0m] [32m<==[0m '[1m/home/l/teleop_pioneer_slam/build/polled_camera/build_env.sh /usr/bin/make --jobserver-fds=3,5 -j[0m' finished with return code '[1m0[0m'[0m
