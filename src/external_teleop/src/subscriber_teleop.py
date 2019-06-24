@@ -83,9 +83,10 @@ class Node(object):
     def talker_pose(self, data):
         # pub = rospy.Publisher('/pioneer_cmd_vel', Twist, queue_size=10)
         rospy.loginfo(rospy.get_caller_id() + "Sent to /tf")
-        # pub = rospy.Publisher('/tf', Pose)
-        # # rospy.loginfo(data)
-        # pub.publish(data)
+        pub = rospy.Publisher('/tf_laser', Pose)
+        # rospy.loginfo(data)
+        pub.publish(data)
+
         pub_tf = rospy.Publisher("/tf_static", tf2_msgs.msg.TFMessage, queue_size=1)
         t = geometry_msgs.msg.TransformStamped()
         t.header.frame_id = "base"

@@ -1,4 +1,4 @@
-# Teleoperate Pioneer P3dx pn VREP using ROS and and Android App
+# Teleoperate Pioneer P3dx on VREP using ROS and Android App
 
 <!-- <img src="picture/env.jpg"> -->
 
@@ -46,22 +46,41 @@ $ cp libv_repExtRosInterface.so  ~/V-REP
 ```
 
 ## RUN
+
 1. open one terminal and run `$ roscore`
+
 2. open another terminal and run `$ . ~/V-REP/vrep.sh`
+
 >  Please pay attention to these message and if you see
+
 ```
 Plugin ’RosInterface’: loading...
 Plugin ’RosInterface’: load succeeded.
 ```
+
 3. open `slam_peoneer_p3dx_2.ttt` in vrep's scene and press the start bottom
-4. control the robot using the Android APP
+
+4. Download and install the [Android APP](https://play.google.com/store/apps/details?id=com.robotca.ControlApp)
+used to control the robot.
+
+5. Enter the app and select the **+** button to add a new robot.
+
+<img src="images/Screenshot_2019-06-24-15-24-20-1.png">
+
+5. Enter the Robot Name and the Master URI. Change localhost to the computer ip that is running roscore. For example 192.168.1.104. Then select OK.
+
+<img src="images/Screenshot_2019-06-24-16-04-02-1.png">
+
+6. Select the recently added robot.
+
+<img src="images/Screenshot_2019-06-24-15-24-56-1.png">
+
+7. On a new terminal run the subscriber_teleop.py
+
 ```
-$ rosrun key_teleop key_teleop.py
-```
-5. launch the ros nodes for face detection/recognition and automatic ball tracking
-```
-$ roslaunch hector.launch
+$ rosrun external_teleop subscriber_teleop.py
 ```
 
+8. Control the robot using the joystick from the app
 
-<!-- <img src="picture/run.jpg"> -->
+<img src="images/Screenshot_2019-06-24-15-25-47-1.png">
