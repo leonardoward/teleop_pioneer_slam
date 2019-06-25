@@ -1,14 +1,11 @@
 # Teleoperate Pioneer P3dx on VREP using ROS and Android App
 
 <!-- <img src="picture/env.jpg"> -->
-
-* Build 2D grid map with laserscan data avia `rviz`
+<!-- Build 2D grid map with laserscan data avia rviz -->
 * Control the mobile robot in the `vrep` simulation environment with keyboard
-* Image Recognition and localization
-* Visual Servoing (follow the yellow ball)
-* roslaunch ros nodes
+* Teleoperate the robot using an [ROS CONTROL](https://play.google.com/store/apps/details?id=com.robotca.ControlApp) (Android APP)
 
-<img src="picture/rqt_graph.jpg">
+<!-- <img src="picture/rqt_graph.jpg"> -->
 
 ## SETUP
 #### ROS install and catkin

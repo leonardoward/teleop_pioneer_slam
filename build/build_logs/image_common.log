@@ -1,44 +1,4 @@
-[[36mimage_common[0m] [1m[34m==>[0m '[1m/home/l/teleop_pioneer_slam/build/image_common/build_env.sh /usr/bin/cmake /home/l/teleop_pioneer_slam/src/image_common/image_common -DCATKIN_DEVEL_PREFIX=/home/l/teleop_pioneer_slam/devel -DCMAKE_INSTALL_PREFIX=/home/l/teleop_pioneer_slam/install[0m' [30m[1min[0m '[1m/home/l/teleop_pioneer_slam/build/image_common[0m'[0m
-[36m-- [0mThe C compiler identification is GNU 5.4.0
-[0m[36m-- [0mThe CXX compiler identification is GNU 5.4.0
-[0m[36m-- [0mCheck for working C compiler:[33m /usr/bin/cc
-[0m[0m[36m-- [0mCheck for working C compiler:[33m /usr/bin/cc -- works
-[0m[0m[36m-- [0mDetecting C compiler ABI info
-[0m[36m-- [0mDetecting C compiler ABI info - done
-[0m[36m-- [0mDetecting C compile features
-[0m[36m-- [0mDetecting C compile features - done
-[0m[36m-- [0mCheck for working CXX compiler:[33m /usr/bin/c++
-[0m[0m[36m-- [0mCheck for working CXX compiler:[33m /usr/bin/c++ -- works
-[0m[0m[36m-- [0mDetecting CXX compiler ABI info
-[0m[36m-- [0mDetecting CXX compiler ABI info - done
-[0m[36m-- [0mDetecting CXX compile features
-[0m[36m-- [0mDetecting CXX compile features - done
-[0m[36m-- [0mUsing CATKIN_DEVEL_PREFIX:[33m /home/l/teleop_pioneer_slam/devel
-[0m[0m[36m-- [0mUsing CMAKE_PREFIX_PATH:[33m /home/l/teleop_pioneer_slam/devel;/opt/ros/kinetic
-[0m[0m[36m-- [0mThis workspace overlays:[33m /home/l/teleop_pioneer_slam/devel;/opt/ros/kinetic
-[0m[0m[36m-- [0mFound PythonInterp:[33m /usr/bin/python (found version "2.7.12") 
-[0m[0m[36m-- [0mUsing PYTHON_EXECUTABLE:[33m /usr/bin/python
-[0m[0m[36m-- [0mUsing Debian Python package layout
-[0m[36m-- [0mUsing empy:[33m /usr/bin/empy
-[0m[0m[36m-- [0mUsing CATKIN_ENABLE_TESTING:[33m ON
-[0m[0m[36m-- [0mCall enable_testing()
-[0m[36m-- [0mUsing CATKIN_TEST_RESULTS_DIR:[33m /home/l/teleop_pioneer_slam/build/image_common/test_results
-[0m[0m[36m-- [0mFound gmock sources under '/usr/src/gmock':[33m gmock will be built
-[0m[0m[36m-- [0mLooking for pthread.h
-[0m[36m-- [0mLooking for pthread.h - found
-[0m[36m-- [0mLooking for pthread_create
-[0m[36m-- [0mLooking for pthread_create - not found
-[0m[36m-- [0mLooking for pthread_create in pthreads
-[0m[36m-- [0mLooking for pthread_create in pthreads - not found
-[0m[36m-- [0mLooking for pthread_create in pthread
-[0m[36m-- [0mLooking for pthread_create in pthread - found
-[0m[36m-- [0mFound Threads:[33m TRUE  
-[0m[0m[36m-- [0mFound gtest sources under '/usr/src/gmock':[33m gtests will be built
-[0m[0m[36m-- [0mUsing Python nosetests:[33m /usr/bin/nosetests-2.7
-[0m[0m[36m-- [0mcatkin 0.7.14
-[0m[36m-- [0mConfiguring done
-[0m[36m-- [0mGenerating done
-[0m[36m-- [0mBuild files have been written to:[33m /home/l/teleop_pioneer_slam/build/image_common
-[0m[0m[[36mimage_common[0m] [32m<==[0m '[1m/home/l/teleop_pioneer_slam/build/image_common/build_env.sh /usr/bin/cmake /home/l/teleop_pioneer_slam/src/image_common/image_common -DCATKIN_DEVEL_PREFIX=/home/l/teleop_pioneer_slam/devel -DCMAKE_INSTALL_PREFIX=/home/l/teleop_pioneer_slam/install[0m' finished with return code '[1m0[0m'[0m
+[[36mimage_common[0m] [1m[34m==>[0m '[1m/home/l/teleop_pioneer_slam/build/image_common/build_env.sh /usr/bin/make cmake_check_build_system[0m' [30m[1min[0m '[1m/home/l/teleop_pioneer_slam/build/image_common[0m'[0m
+[[36mimage_common[0m] [32m<==[0m '[1m/home/l/teleop_pioneer_slam/build/image_common/build_env.sh /usr/bin/make cmake_check_build_system[0m' finished with return code '[1m0[0m'[0m
 [[36mimage_common[0m] [1m[34m==>[0m '[1m/home/l/teleop_pioneer_slam/build/image_common/build_env.sh /usr/bin/make --jobserver-fds=3,5 -j[0m' [30m[1min[0m '[1m/home/l/teleop_pioneer_slam/build/image_common[0m'[0m
 [[36mimage_common[0m] [32m<==[0m '[1m/home/l/teleop_pioneer_slam/build/image_common/build_env.sh /usr/bin/make --jobserver-fds=3,5 -j[0m' finished with return code '[1m0[0m'[0m

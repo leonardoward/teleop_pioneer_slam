@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(external_teleop)
 
+rosbuild_init()
 ## Compile as C++11, supported in ROS Kinetic and newer
 # add_compile_options(-std=c++11)
 
@@ -140,6 +141,8 @@ include_directories(
 ## target back to the shorter version for ease of user use
 ## e.g. "rosrun someones_pkg node" instead of "rosrun someones_pkg someones_pkg_node"
 # set_target_properties(${PROJECT_NAME}_node PROPERTIES OUTPUT_NAME node PREFIX "")
+#rosbuild_add_executable(image_publisher src/image_publisher.cpp)
+#rosbuild_add_executable(image_subscriber src/image_subscriber.cpp)
 
 ## Add cmake target dependencies of the executable
 ## same as for the library above

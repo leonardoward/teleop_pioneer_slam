@@ -7,6 +7,3 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/l/teleop_pioneer_slam/devel:$CMAKE_PREFIX_PATH"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/l/teleop_pioneer_slam/devel/share/common-lisp"
-export ROS_PACKAGE_PATH="/home/l/teleop_pioneer_slam/src/external_teleop:$ROS_PACKAGE_PATH"

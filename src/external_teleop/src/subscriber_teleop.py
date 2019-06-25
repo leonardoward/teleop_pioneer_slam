@@ -76,8 +76,6 @@ class Node(object):
         rospy.loginfo(rospy.get_caller_id() + "Received from /hokuyo_scan")
         # rospy.loginfo(rospy.get_caller_id() + "I heard %s", data)
         data.intensities = len(data.ranges)*[200]
-        print(len(data.ranges))
-        print(data.intensities)
         self.talker_extern_scan(data)
 
     def talker_pose(self, data):
